@@ -11,8 +11,6 @@ Our current project is exploring the limits of low-power wireless to build high 
 **Software**
 
 Currently developing a mobile tool with a machine learning component to turn data into a signals-engine.
-## Project Dashboard 
-See `~/Theory/Grammars/hrg_nets/.myprojs/kiki.sh`
 
 
 **Interested?** 
