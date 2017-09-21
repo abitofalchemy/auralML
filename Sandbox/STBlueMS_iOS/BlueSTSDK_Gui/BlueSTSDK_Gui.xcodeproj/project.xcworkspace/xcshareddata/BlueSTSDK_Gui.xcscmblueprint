@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DEEB33513799C090033480A8E62FA9A6581A35A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DEEB33513799C090033480A8E62FA9A6581A35A8" : 9223372036854775807,
+    "2A312B631986717B1B53880E49B30DC689B1793C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "88792AFE-15A1-4FE1-BAAB-AA35F2B72C0B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DEEB33513799C090033480A8E62FA9A6581A35A8" : "BlueMS_iOS2\/",
+    "2A312B631986717B1B53880E49B30DC689B1793C" : "BlueMS_iOS2\/BlueSTSDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BlueSTSDK_Gui",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BlueSTSDK_Gui\/BlueSTSDK_Gui.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/codex.cro.st.com\/bluemesh\/BlueSTSDK_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2A312B631986717B1B53880E49B30DC689B1793C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/codex.cro.st.com\/bluemesh\/BlueMS_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DEEB33513799C090033480A8E62FA9A6581A35A8"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+echo `date "+%d%b%y"` '|' $1 >> README.md

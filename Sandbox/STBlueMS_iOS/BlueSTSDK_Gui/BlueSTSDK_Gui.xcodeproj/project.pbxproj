@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663979191E2E5D0000FBF696 /* BlueSTSDK_Gui.h in Headers */ = {isa = PBXBuildFile; fileRef = 663979171E2E5D0000FBF696 /* BlueSTSDK_Gui.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6639797D1E2E5D4100FBF696 /* BlueSTSDKDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6639791F1E2E5D4100FBF696 /* BlueSTSDKDemoViewController.m */; };
+		6639797E1E2E5D4100FBF696 /* BlueSTSDKMainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663979201E2E5D4100FBF696 /* BlueSTSDKMainView.storyboard */; };
+		6639797F1E2E5D4100FBF696 /* BlueSTSDKNodeListViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 663979211E2E5D4100FBF696 /* BlueSTSDKNodeListViewCell.h */; };
+		663979801E2E5D4100FBF696 /* BlueSTSDKNodeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663979221E2E5D4100FBF696 /* BlueSTSDKNodeListViewController.m */; };
+		663979811E2E5D4100FBF696 /* BlueSTSDKAboutViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 663979231E2E5D4100FBF696 /* BlueSTSDKAboutViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663979821E2E5D4100FBF696 /* BlueSTSDKAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663979241E2E5D4100FBF696 /* BlueSTSDKAboutViewController.m */; };
+		663979831E2E5D4100FBF696 /* BlueSTSDKDemoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 663979251E2E5D4100FBF696 /* BlueSTSDKDemoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663979841E2E5D4100FBF696 /* st_images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663979261E2E5D4100FBF696 /* st_images.xcassets */; };
+		663979851E2E5D4100FBF696 /* BlueSTSDKMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 663979271E2E5D4100FBF696 /* BlueSTSDKMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663979861E2E5D4100FBF696 /* BlueSTSDKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663979281E2E5D4100FBF696 /* BlueSTSDKMainViewController.m */; };
+		663979871E2E5D4100FBF696 /* BlueSTSDKNodeListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 663979291E2E5D4100FBF696 /* BlueSTSDKNodeListViewCell.m */; };
+		663979881E2E5D4100FBF696 /* BlueSTSDKNodeListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6639792A1E2E5D4100FBF696 /* BlueSTSDKNodeListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663979891E2E5D4100FBF696 /* BlueSTSDKViewControllerMenuDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6639792B1E2E5D4100FBF696 /* BlueSTSDKViewControllerMenuDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6639798A1E2E5D4100FBF696 /* BlueSTSDKDebugConsoleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6639792D1E2E5D4100FBF696 /* BlueSTSDKDebugConsoleViewController.h */; };
+		6639798B1E2E5D4100FBF696 /* BlueSTSDKDebugConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6639792E1E2E5D4100FBF696 /* BlueSTSDKDebugConsoleViewController.m */; };
+		6639798C1E2E5D4100FBF696 /* DebugConsoleMainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6639792F1E2E5D4100FBF696 /* DebugConsoleMainView.storyboard */; };
+		6639798D1E2E5D4100FBF696 /* FwUpgrade.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663979311E2E5D4100FBF696 /* FwUpgrade.storyboard */; };
+		6639798E1E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 663979331E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6639798F1E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 663979341E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsole.m */; };
+		663979901E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsoleNucleo.h in Headers */ = {isa = PBXBuildFile; fileRef = 663979351E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsoleNucleo.h */; };
+		663979911E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsoleNucleo.m in Sources */ = {isa = PBXBuildFile; fileRef = 663979361E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsoleNucleo.m */; };
+		663979921E2E5D4100FBF696 /* BlueSTSDKStm32Crc.h in Headers */ = {isa = PBXBuildFile; fileRef = 663979381E2E5D4100FBF696 /* BlueSTSDKStm32Crc.h */; };
+		663979931E2E5D4100FBF696 /* BlueSTSDKStm32Crc.m in Sources */ = {isa = PBXBuildFile; fileRef = 663979391E2E5D4100FBF696 /* BlueSTSDKStm32Crc.m */; };
+		663979941E2E5D4100FBF696 /* FwUpgradeManagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6639793A1E2E5D4100FBF696 /* FwUpgradeManagerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663979951E2E5D4100FBF696 /* FwUpgradeManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6639793B1E2E5D4100FBF696 /* FwUpgradeManagerViewController.m */; };
+		663979C31E2E5D4100FBF696 /* board_generic.png in Resources */ = {isa = PBXBuildFile; fileRef = 663979751E2E5D4100FBF696 /* board_generic.png */; };
+		663979C41E2E5D4100FBF696 /* st_images_LanchScreen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663979761E2E5D4100FBF696 /* st_images_LanchScreen.xcassets */; };
+		663979C51E2E5D4100FBF696 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 663979791E2E5D4100FBF696 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663979C61E2E5D4100FBF696 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6639797A1E2E5D4100FBF696 /* MBProgressHUD.m */; };
+		663979C71E2E5D4100FBF696 /* UIViewController+BlueSTSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 6639797B1E2E5D4100FBF696 /* UIViewController+BlueSTSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663979C81E2E5D4100FBF696 /* UIViewController+BlueSTSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 6639797C1E2E5D4100FBF696 /* UIViewController+BlueSTSDK.m */; };
+		663979D41E2E5FA200FBF696 /* BlueSTSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663979D11E2E5F9600FBF696 /* BlueSTSDK.framework */; };
+		663979EA1E2E63AC00FBF696 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663979E91E2E63AC00FBF696 /* UIKit.framework */; };
+		668A12711E3A369A00D99490 /* BlueSTSDK_GUI_images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668A12701E3A369A00D99490 /* BlueSTSDK_GUI_images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		663979D01E2E5F9600FBF696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663979CB1E2E5F9600FBF696 /* BlueSTSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 665241F01B0B1BB100931F93;
+			remoteInfo = BlueSTSDK;
+		};
+		663979D21E2E5F9600FBF696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663979CB1E2E5F9600FBF696 /* BlueSTSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 665241FB1B0B1BB100931F93;
+			remoteInfo = BlueSTSDKTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		663979141E2E5D0000FBF696 /* BlueSTSDK_Gui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlueSTSDK_Gui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		663979171E2E5D0000FBF696 /* BlueSTSDK_Gui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueSTSDK_Gui.h; sourceTree = "<group>"; };
+		663979181E2E5D0000FBF696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6639791F1E2E5D4100FBF696 /* BlueSTSDKDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueSTSDKDemoViewController.m; sourceTree = "<group>"; };
+		663979201E2E5D4100FBF696 /* BlueSTSDKMainView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BlueSTSDKMainView.storyboard; sourceTree = "<group>"; };
+		663979211E2E5D4100FBF696 /* BlueSTSDKNodeListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSTSDKNodeListViewCell.h; sourceTree = "<group>"; };
+		663979221E2E5D4100FBF696 /* BlueSTSDKNodeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueSTSDKNodeListViewController.m; sourceTree = "<group>"; };
+		663979231E2E5D4100FBF696 /* BlueSTSDKAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSTSDKAboutViewController.h; sourceTree = "<group>"; };
+		663979241E2E5D4100FBF696 /* BlueSTSDKAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueSTSDKAboutViewController.m; sourceTree = "<group>"; };
+		663979251E2E5D4100FBF696 /* BlueSTSDKDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSTSDKDemoViewController.h; sourceTree = "<group>"; };
+		663979261E2E5D4100FBF696 /* st_images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = st_images.xcassets; sourceTree = "<group>"; };
+		663979271E2E5D4100FBF696 /* BlueSTSDKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSTSDKMainViewController.h; sourceTree = "<group>"; };
+		663979281E2E5D4100FBF696 /* BlueSTSDKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueSTSDKMainViewController.m; sourceTree = "<group>"; };
+		663979291E2E5D4100FBF696 /* BlueSTSDKNodeListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueSTSDKNodeListViewCell.m; sourceTree = "<group>"; };
+		6639792A1E2E5D4100FBF696 /* BlueSTSDKNodeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSTSDKNodeListViewController.h; sourceTree = "<group>"; };
+		6639792B1E2E5D4100FBF696 /* BlueSTSDKViewControllerMenuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSTSDKViewControllerMenuDelegate.h; sourceTree = "<group>"; };
+		6639792D1E2E5D4100FBF696 /* BlueSTSDKDebugConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSTSDKDebugConsoleViewController.h; sourceTree = "<group>"; };
+		6639792E1E2E5D4100FBF696 /* BlueSTSDKDebugConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueSTSDKDebugConsoleViewController.m; sourceTree = "<group>"; };
+		6639792F1E2E5D4100FBF696 /* DebugConsoleMainView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DebugConsoleMainView.storyboard; sourceTree = "<group>"; };
+		663979311E2E5D4100FBF696 /* FwUpgrade.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FwUpgrade.storyboard; sourceTree = "<group>"; };
+		663979331E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSTSDKFwUpgradeConsole.h; sourceTree = "<group>"; };
+		663979341E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueSTSDKFwUpgradeConsole.m; sourceTree = "<group>"; };
+		663979351E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsoleNucleo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSTSDKFwUpgradeConsoleNucleo.h; sourceTree = "<group>"; };
+		663979361E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsoleNucleo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueSTSDKFwUpgradeConsoleNucleo.m; sourceTree = "<group>"; };
+		663979381E2E5D4100FBF696 /* BlueSTSDKStm32Crc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSTSDKStm32Crc.h; sourceTree = "<group>"; };
+		663979391E2E5D4100FBF696 /* BlueSTSDKStm32Crc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueSTSDKStm32Crc.m; sourceTree = "<group>"; };
+		6639793A1E2E5D4100FBF696 /* FwUpgradeManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FwUpgradeManagerViewController.h; sourceTree = "<group>"; };
+		6639793B1E2E5D4100FBF696 /* FwUpgradeManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FwUpgradeManagerViewController.m; sourceTree = "<group>"; };
+		663979751E2E5D4100FBF696 /* board_generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board_generic.png; sourceTree = "<group>"; };
+		663979761E2E5D4100FBF696 /* st_images_LanchScreen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = st_images_LanchScreen.xcassets; sourceTree = "<group>"; };
+		663979791E2E5D4100FBF696 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6639797A1E2E5D4100FBF696 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6639797B1E2E5D4100FBF696 /* UIViewController+BlueSTSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BlueSTSDK.h"; sourceTree = "<group>"; };
+		6639797C1E2E5D4100FBF696 /* UIViewController+BlueSTSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BlueSTSDK.m"; sourceTree = "<group>"; };
+		663979CB1E2E5F9600FBF696 /* BlueSTSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlueSTSDK.xcodeproj; path = ../BlueSTSDK/BlueSTSDK/BlueSTSDK.xcodeproj; sourceTree = "<group>"; };
+		663979E91E2E63AC00FBF696 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		668A12701E3A369A00D99490 /* BlueSTSDK_GUI_images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BlueSTSDK_GUI_images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		663979101E2E5D0000FBF696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663979EA1E2E63AC00FBF696 /* UIKit.framework in Frameworks */,
+				663979D41E2E5FA200FBF696 /* BlueSTSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6639790A1E2E5D0000FBF696 = {
+			isa = PBXGroup;
+			children = (
+				663979161E2E5D0000FBF696 /* BlueSTSDK_Gui */,
+				663979151E2E5D0000FBF696 /* Products */,
+				663979CA1E2E5F9500FBF696 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		663979151E2E5D0000FBF696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				663979141E2E5D0000FBF696 /* BlueSTSDK_Gui.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		663979161E2E5D0000FBF696 /* BlueSTSDK_Gui */ = {
+			isa = PBXGroup;
+			children = (
+				668A12701E3A369A00D99490 /* BlueSTSDK_GUI_images.xcassets */,
+				663979261E2E5D4100FBF696 /* st_images.xcassets */,
+				663979761E2E5D4100FBF696 /* st_images_LanchScreen.xcassets */,
+				6639792C1E2E5D4100FBF696 /* DebugConsole */,
+				663979301E2E5D4100FBF696 /* FwUpgrade */,
+				663979201E2E5D4100FBF696 /* BlueSTSDKMainView.storyboard */,
+				663979211E2E5D4100FBF696 /* BlueSTSDKNodeListViewCell.h */,
+				663979291E2E5D4100FBF696 /* BlueSTSDKNodeListViewCell.m */,
+				6639792A1E2E5D4100FBF696 /* BlueSTSDKNodeListViewController.h */,
+				663979221E2E5D4100FBF696 /* BlueSTSDKNodeListViewController.m */,
+				663979231E2E5D4100FBF696 /* BlueSTSDKAboutViewController.h */,
+				663979241E2E5D4100FBF696 /* BlueSTSDKAboutViewController.m */,
+				663979251E2E5D4100FBF696 /* BlueSTSDKDemoViewController.h */,
+				6639791F1E2E5D4100FBF696 /* BlueSTSDKDemoViewController.m */,
+				663979271E2E5D4100FBF696 /* BlueSTSDKMainViewController.h */,
+				663979281E2E5D4100FBF696 /* BlueSTSDKMainViewController.m */,
+				6639792B1E2E5D4100FBF696 /* BlueSTSDKViewControllerMenuDelegate.h */,
+				6639797B1E2E5D4100FBF696 /* UIViewController+BlueSTSDK.h */,
+				6639797C1E2E5D4100FBF696 /* UIViewController+BlueSTSDK.m */,
+				663979171E2E5D0000FBF696 /* BlueSTSDK_Gui.h */,
+				663979731E2E5D4100FBF696 /* Resources */,
+				663979771E2E5D4100FBF696 /* ThirdParty */,
+				663979181E2E5D0000FBF696 /* Info.plist */,
+			);
+			path = BlueSTSDK_Gui;
+			sourceTree = "<group>";
+		};
+		6639792C1E2E5D4100FBF696 /* DebugConsole */ = {
+			isa = PBXGroup;
+			children = (
+				6639792D1E2E5D4100FBF696 /* BlueSTSDKDebugConsoleViewController.h */,
+				6639792E1E2E5D4100FBF696 /* BlueSTSDKDebugConsoleViewController.m */,
+				6639792F1E2E5D4100FBF696 /* DebugConsoleMainView.storyboard */,
+			);
+			path = DebugConsole;
+			sourceTree = "<group>";
+		};
+		663979301E2E5D4100FBF696 /* FwUpgrade */ = {
+			isa = PBXGroup;
+			children = (
+				663979311E2E5D4100FBF696 /* FwUpgrade.storyboard */,
+				663979321E2E5D4100FBF696 /* FwUpgradeConsole */,
+				6639793A1E2E5D4100FBF696 /* FwUpgradeManagerViewController.h */,
+				6639793B1E2E5D4100FBF696 /* FwUpgradeManagerViewController.m */,
+			);
+			path = FwUpgrade;
+			sourceTree = "<group>";
+		};
+		663979321E2E5D4100FBF696 /* FwUpgradeConsole */ = {
+			isa = PBXGroup;
+			children = (
+				663979331E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsole.h */,
+				663979341E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsole.m */,
+				663979351E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsoleNucleo.h */,
+				663979361E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsoleNucleo.m */,
+				663979371E2E5D4100FBF696 /* util */,
+			);
+			path = FwUpgradeConsole;
+			sourceTree = "<group>";
+		};
+		663979371E2E5D4100FBF696 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				663979381E2E5D4100FBF696 /* BlueSTSDKStm32Crc.h */,
+				663979391E2E5D4100FBF696 /* BlueSTSDKStm32Crc.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		663979731E2E5D4100FBF696 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				663979741E2E5D4100FBF696 /* boardImages */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		663979741E2E5D4100FBF696 /* boardImages */ = {
+			isa = PBXGroup;
+			children = (
+				663979751E2E5D4100FBF696 /* board_generic.png */,
+			);
+			path = boardImages;
+			sourceTree = "<group>";
+		};
+		663979771E2E5D4100FBF696 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				663979781E2E5D4100FBF696 /* MBProgressHUD */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		663979781E2E5D4100FBF696 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				663979791E2E5D4100FBF696 /* MBProgressHUD.h */,
+				6639797A1E2E5D4100FBF696 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		663979CA1E2E5F9500FBF696 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				663979E91E2E63AC00FBF696 /* UIKit.framework */,
+				663979CB1E2E5F9600FBF696 /* BlueSTSDK.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		663979CC1E2E5F9600FBF696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				663979D11E2E5F9600FBF696 /* BlueSTSDK.framework */,
+				663979D31E2E5F9600FBF696 /* BlueSTSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		663979111E2E5D0000FBF696 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663979851E2E5D4100FBF696 /* BlueSTSDKMainViewController.h in Headers */,
+				663979831E2E5D4100FBF696 /* BlueSTSDKDemoViewController.h in Headers */,
+				663979C71E2E5D4100FBF696 /* UIViewController+BlueSTSDK.h in Headers */,
+				663979811E2E5D4100FBF696 /* BlueSTSDKAboutViewController.h in Headers */,
+				663979881E2E5D4100FBF696 /* BlueSTSDKNodeListViewController.h in Headers */,
+				663979941E2E5D4100FBF696 /* FwUpgradeManagerViewController.h in Headers */,
+				663979891E2E5D4100FBF696 /* BlueSTSDKViewControllerMenuDelegate.h in Headers */,
+				663979C51E2E5D4100FBF696 /* MBProgressHUD.h in Headers */,
+				663979191E2E5D0000FBF696 /* BlueSTSDK_Gui.h in Headers */,
+				6639798E1E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsole.h in Headers */,
+				6639797F1E2E5D4100FBF696 /* BlueSTSDKNodeListViewCell.h in Headers */,
+				663979901E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsoleNucleo.h in Headers */,
+				6639798A1E2E5D4100FBF696 /* BlueSTSDKDebugConsoleViewController.h in Headers */,
+				663979921E2E5D4100FBF696 /* BlueSTSDKStm32Crc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		663979131E2E5D0000FBF696 /* BlueSTSDK_Gui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6639791C1E2E5D0000FBF696 /* Build configuration list for PBXNativeTarget "BlueSTSDK_Gui" */;
+			buildPhases = (
+				6639790F1E2E5D0000FBF696 /* Sources */,
+				663979101E2E5D0000FBF696 /* Frameworks */,
+				663979111E2E5D0000FBF696 /* Headers */,
+				663979121E2E5D0000FBF696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueSTSDK_Gui;
+			productName = BlueSTSDK_Gui;
+			productReference = 663979141E2E5D0000FBF696 /* BlueSTSDK_Gui.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6639790B1E2E5D0000FBF696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = STCentralLab;
+				TargetAttributes = {
+					663979131E2E5D0000FBF696 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 6639790E1E2E5D0000FBF696 /* Build configuration list for PBXProject "BlueSTSDK_Gui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6639790A1E2E5D0000FBF696;
+			productRefGroup = 663979151E2E5D0000FBF696 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 663979CC1E2E5F9600FBF696 /* Products */;
+					ProjectRef = 663979CB1E2E5F9600FBF696 /* BlueSTSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				663979131E2E5D0000FBF696 /* BlueSTSDK_Gui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		663979D11E2E5F9600FBF696 /* BlueSTSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BlueSTSDK.framework;
+			remoteRef = 663979D01E2E5F9600FBF696 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		663979D31E2E5F9600FBF696 /* BlueSTSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BlueSTSDKTests.xctest;
+			remoteRef = 663979D21E2E5F9600FBF696 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		663979121E2E5D0000FBF696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663979C31E2E5D4100FBF696 /* board_generic.png in Resources */,
+				6639798D1E2E5D4100FBF696 /* FwUpgrade.storyboard in Resources */,
+				6639797E1E2E5D4100FBF696 /* BlueSTSDKMainView.storyboard in Resources */,
+				6639798C1E2E5D4100FBF696 /* DebugConsoleMainView.storyboard in Resources */,
+				663979C41E2E5D4100FBF696 /* st_images_LanchScreen.xcassets in Resources */,
+				663979841E2E5D4100FBF696 /* st_images.xcassets in Resources */,
+				668A12711E3A369A00D99490 /* BlueSTSDK_GUI_images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6639790F1E2E5D0000FBF696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663979C81E2E5D4100FBF696 /* UIViewController+BlueSTSDK.m in Sources */,
+				663979821E2E5D4100FBF696 /* BlueSTSDKAboutViewController.m in Sources */,
+				663979911E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsoleNucleo.m in Sources */,
+				663979861E2E5D4100FBF696 /* BlueSTSDKMainViewController.m in Sources */,
+				6639798F1E2E5D4100FBF696 /* BlueSTSDKFwUpgradeConsole.m in Sources */,
+				663979951E2E5D4100FBF696 /* FwUpgradeManagerViewController.m in Sources */,
+				663979801E2E5D4100FBF696 /* BlueSTSDKNodeListViewController.m in Sources */,
+				6639797D1E2E5D4100FBF696 /* BlueSTSDKDemoViewController.m in Sources */,
+				663979C61E2E5D4100FBF696 /* MBProgressHUD.m in Sources */,
+				6639798B1E2E5D4100FBF696 /* BlueSTSDKDebugConsoleViewController.m in Sources */,
+				663979931E2E5D4100FBF696 /* BlueSTSDKStm32Crc.m in Sources */,
+				663979871E2E5D4100FBF696 /* BlueSTSDKNodeListViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6639791A1E2E5D0000FBF696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6639791B1E2E5D0000FBF696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6639791D1E2E5D0000FBF696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BlueSTSDK_Gui/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BlueSTSDK_Gui/LicenseManager/GenerateLicenseCode",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.st.clab.BlueSTSDK-Gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6639791E1E2E5D0000FBF696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BlueSTSDK_Gui/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BlueSTSDK_Gui/LicenseManager/GenerateLicenseCode",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.st.clab.BlueSTSDK-Gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6639790E1E2E5D0000FBF696 /* Build configuration list for PBXProject "BlueSTSDK_Gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6639791A1E2E5D0000FBF696 /* Debug */,
+				6639791B1E2E5D0000FBF696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6639791C1E2E5D0000FBF696 /* Build configuration list for PBXNativeTarget "BlueSTSDK_Gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6639791D1E2E5D0000FBF696 /* Debug */,
+				6639791E1E2E5D0000FBF696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6639790B1E2E5D0000FBF696 /* Project object */;
+}
